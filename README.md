@@ -1,0 +1,3 @@
+# Uncommon HTML Bug: Incorrect getElementById Selector
+
+This repository demonstrates a subtle bug involving the `getElementById` method in HTML. The error lies in the way the element's ID is passed to the function.  The incorrect code appends a '#' before the ID when it shouldn't. This results in the element not being found, leading to unexpected behavior. The solution demonstrates the correct usage of `getElementById`.
